@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box ;
+}
+#locationName{
+    font-size: 30px;
+
+}
+#description{
+    font-size: 25px;
+}
+#temp{
+    font-size: 25px;
+}
+.container{
+    border: 2px solid red;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: powderblue;
+    position: absolute;
+    color: black;
+    top: 100px;
+    left: 50px;
+    z-index: 1000;
+}
+#map {
+     height: 100vh; 
+     position: relative;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
